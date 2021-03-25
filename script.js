@@ -5,7 +5,7 @@
 	  		Block.appendTo(div);	
 	};
   //Условие и событие при котором вызываем функцию
-		$(window).width() < 1023 ? $( init('.lcontacts') ) : $( init('.lresmenu') );
+		$(window).width() < 1023 ? $( init('.div') ) : $( init('.div') );
 		window.onresize = function(event) {
-			$(window).width() < 1023 ? $( init('.lcontacts') ) : $( init('.lresmenu') );
+			$(window).width() < 1023 ? $( init('.div') ) : $( init('.div') );
 	};
